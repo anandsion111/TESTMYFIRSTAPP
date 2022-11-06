@@ -1,20 +1,16 @@
 PODS:
-  - Kiwi/ARC (2.2.4)
-  - Kiwi/NonARC (2.2.4)
-  - Kiwi/XCTest (2.2.4):
-    - Kiwi/ARC
-    - Kiwi/NonARC
+  - SenTestingKitAsync (1.0.6)
 
 DEPENDENCIES:
-  - Kiwi/XCTest
+  - SenTestingKitAsync (~> 1.0.6)
 
 SPEC REPOS:
   trunk:
-    - Kiwi
+    - SenTestingKitAsync
 
 SPEC CHECKSUMS:
-  Kiwi: c58165bd21aba5c7541adec5ab55a238832808b9
+  SenTestingKitAsync: 2940560fcd9fef8cae9ef461e69f746f107168ea
 
-PODFILE CHECKSUM: b8ff967211692ee79cc999b5b6c54a93efcb1b0b
+PODFILE CHECKSUM: 7210e4575928600f7670f09f5bd2fbabb013bdd8
 
 COCOAPODS: 1.9.3

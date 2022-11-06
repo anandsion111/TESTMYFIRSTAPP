@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests/Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Kiwi/Kiwi.framework
+${BUILT_PRODUCTS_DIR}/SenTestingKitAsync/SenTestingKitAsync.framework

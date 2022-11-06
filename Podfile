@@ -7,8 +7,9 @@ target 'TESTMYFIRSTAPP' do
 
   # Pods for TESTMYFIRSTAPP
 
-  target 'TESTMYFIRSTAPPTests' do  # Pods for testing
-   pod 'Kiwi/XCTest'
+  target 'TESTMYFIRSTAPPTests' do   # Pods for testing
+    pod 'SenTestingKitAsync', '~> 1.0.6'  
+   
   end
 
 end
