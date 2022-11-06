@@ -11,6 +11,18 @@
 		50851D102917607000C67B96 /* TESTMYFIRSTAPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 50851D022917607000C67B96 /* TESTMYFIRSTAPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50851D782917783C00C67B96 /* TESTMYFIRSTAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851D772917783C00C67B96 /* TESTMYFIRSTAPPTests.swift */; };
 		50851D7A2917783C00C67B96 /* TESTMYFIRSTAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50851CFF2917607000C67B96 /* TESTMYFIRSTAPP.framework */; platformFilter = ios; };
+		50851DD629178F0200C67B96 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DCA29178F0000C67B96 /* Utils.swift */; };
+		50851DD729178F0200C67B96 /* AuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DCB29178F0000C67B96 /* AuthToken.swift */; };
+		50851DD829178F0200C67B96 /* ManageUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DCC29178F0100C67B96 /* ManageUser.swift */; };
+		50851DD929178F0200C67B96 /* firebaseMessagingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DCD29178F0100C67B96 /* firebaseMessagingService.swift */; };
+		50851DDA29178F0200C67B96 /* ResponseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DCE29178F0100C67B96 /* ResponseJSON.swift */; };
+		50851DDB29178F0200C67B96 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DCF29178F0100C67B96 /* HelloWorld.swift */; };
+		50851DDC29178F0200C67B96 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DD029178F0100C67B96 /* api.swift */; };
+		50851DDD29178F0200C67B96 /* SampleNotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DD129178F0100C67B96 /* SampleNotificationDelegate.swift */; };
+		50851DDE29178F0200C67B96 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DD229178F0100C67B96 /* DeviceInfo.swift */; };
+		50851DDF29178F0200C67B96 /* SdkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DD329178F0100C67B96 /* SdkConstants.swift */; };
+		50851DE029178F0200C67B96 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DD429178F0200C67B96 /* Event.swift */; };
+		50851DE129178F0200C67B96 /* UserModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DD529178F0200C67B96 /* UserModal.swift */; };
 		8BFD358B69ADACAD9E2CE420 /* Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91B55DD1AB2883170CAFA58 /* Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +59,18 @@
 		50851D752917783C00C67B96 /* TESTMYFIRSTAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESTMYFIRSTAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50851D772917783C00C67B96 /* TESTMYFIRSTAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TESTMYFIRSTAPPTests.swift; sourceTree = "<group>"; };
 		50851D792917783C00C67B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50851DCA29178F0000C67B96 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		50851DCB29178F0000C67B96 /* AuthToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthToken.swift; sourceTree = "<group>"; };
+		50851DCC29178F0100C67B96 /* ManageUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageUser.swift; sourceTree = "<group>"; };
+		50851DCD29178F0100C67B96 /* firebaseMessagingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firebaseMessagingService.swift; sourceTree = "<group>"; };
+		50851DCE29178F0100C67B96 /* ResponseJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseJSON.swift; sourceTree = "<group>"; };
+		50851DCF29178F0100C67B96 /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		50851DD029178F0100C67B96 /* api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
+		50851DD129178F0100C67B96 /* SampleNotificationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleNotificationDelegate.swift; sourceTree = "<group>"; };
+		50851DD229178F0100C67B96 /* DeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		50851DD329178F0100C67B96 /* SdkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkConstants.swift; sourceTree = "<group>"; };
+		50851DD429178F0200C67B96 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		50851DD529178F0200C67B96 /* UserModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModal.swift; sourceTree = "<group>"; };
 		8E56DE5A15D9F900C014C49D /* Pods_TESTMYFIRSTAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TESTMYFIRSTAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D93764618D849149BFCB39 /* Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.release.xcconfig"; path = "Target Support Files/Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests/Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.release.xcconfig"; sourceTree = "<group>"; };
 		C91B55DD1AB2883170CAFA58 /* Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +102,18 @@
 		50851CF52917607000C67B96 = {
 			isa = PBXGroup;
 			children = (
+				50851DD029178F0100C67B96 /* api.swift */,
+				50851DCB29178F0000C67B96 /* AuthToken.swift */,
+				50851DD229178F0100C67B96 /* DeviceInfo.swift */,
+				50851DD429178F0200C67B96 /* Event.swift */,
+				50851DCD29178F0100C67B96 /* firebaseMessagingService.swift */,
+				50851DCF29178F0100C67B96 /* HelloWorld.swift */,
+				50851DCC29178F0100C67B96 /* ManageUser.swift */,
+				50851DCE29178F0100C67B96 /* ResponseJSON.swift */,
+				50851DD129178F0100C67B96 /* SampleNotificationDelegate.swift */,
+				50851DD329178F0100C67B96 /* SdkConstants.swift */,
+				50851DD529178F0200C67B96 /* UserModal.swift */,
+				50851DCA29178F0000C67B96 /* Utils.swift */,
 				50851D012917607000C67B96 /* TESTMYFIRSTAPP */,
 				50851D0C2917607000C67B96 /* TESTMYFIRSTAPPTests */,
 				50851D762917783C00C67B96 /* TESTMYFIRSTAPPTests */,
@@ -208,6 +244,7 @@
 				TargetAttributes = {
 					50851CFE2917607000C67B96 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					50851D742917783C00C67B96 = {
 						CreatedOnToolsVersion = 12.4;
@@ -319,6 +356,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50851DDC29178F0200C67B96 /* api.swift in Sources */,
+				50851DE029178F0200C67B96 /* Event.swift in Sources */,
+				50851DD829178F0200C67B96 /* ManageUser.swift in Sources */,
+				50851DDF29178F0200C67B96 /* SdkConstants.swift in Sources */,
+				50851DDB29178F0200C67B96 /* HelloWorld.swift in Sources */,
+				50851DD929178F0200C67B96 /* firebaseMessagingService.swift in Sources */,
+				50851DE129178F0200C67B96 /* UserModal.swift in Sources */,
+				50851DDA29178F0200C67B96 /* ResponseJSON.swift in Sources */,
+				50851DD629178F0200C67B96 /* Utils.swift in Sources */,
+				50851DDD29178F0200C67B96 /* SampleNotificationDelegate.swift in Sources */,
+				50851DDE29178F0200C67B96 /* DeviceInfo.swift in Sources */,
+				50851DD729178F0200C67B96 /* AuthToken.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48135BF6E851FD8A95EC8943 /* Pods-TESTMYFIRSTAPP.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -486,6 +536,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -495,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAB51CEC327F4655CA11B59B /* Pods-TESTMYFIRSTAPP.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -522,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAC65791C8A64EC02D0368BF /* Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TESTMYFIRSTAPPTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -540,6 +593,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4D93764618D849149BFCB39 /* Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TESTMYFIRSTAPPTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

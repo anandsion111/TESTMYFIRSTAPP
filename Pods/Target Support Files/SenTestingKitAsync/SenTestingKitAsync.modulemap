@@ -1,6 +1,0 @@
-framework module SenTestingKitAsync {
-  umbrella header "SenTestingKitAsync-umbrella.h"
-
-  export *
-  module * { export * }
-}
