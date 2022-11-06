@@ -9,7 +9,7 @@ target 'TESTMYFIRSTAPP' do
   # Pods for TESTMYFIRSTAPP
 
   target 'TESTMYFIRSTAPPTests' do   # Pods for testing
-    pod 'XCTest-Gherkin', '~> 0.21.2'  
+    pod 'Kiwi/XCTest' 
    
   end
 
