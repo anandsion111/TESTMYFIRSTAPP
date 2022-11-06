@@ -20,4 +20,5 @@ Pod::Spec.new do |spec|
   spec.swift_versions = '5.0'
   spec.ios.deployment_target = '14.4'
   spec.dependency 'FirebaseMessaging', '~> 10.1.0'
+  spec.dependency 'Kiwi/XCTest', '~> 2.2.4'
  end

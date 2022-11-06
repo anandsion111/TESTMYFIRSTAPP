@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: 800d887495ac7049ddb8b0e8c82aa8dda1f86cb8
+PODS:
+  - Kiwi/ARC (2.2.4)
+  - Kiwi/NonARC (2.2.4)
+  - Kiwi/XCTest (2.2.4):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+
+DEPENDENCIES:
+  - Kiwi/XCTest
+
+SPEC REPOS:
+  trunk:
+    - Kiwi
+
+SPEC CHECKSUMS:
+  Kiwi: c58165bd21aba5c7541adec5ab55a238832808b9
+
+PODFILE CHECKSUM: b8ff967211692ee79cc999b5b6c54a93efcb1b0b
 
 COCOAPODS: 1.9.3

@@ -7,7 +7,6 @@
 
 import XCTest
 @testable import TESTMYFIRSTAPP
-
 class TESTMYFIRSTAPPTests: XCTestCase {
 
     override func setUpWithError() throws {
@@ -25,7 +24,7 @@ class TESTMYFIRSTAPPTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }

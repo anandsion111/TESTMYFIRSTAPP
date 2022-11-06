@@ -7,8 +7,8 @@ target 'TESTMYFIRSTAPP' do
 
   # Pods for TESTMYFIRSTAPP
 
-  target 'TESTMYFIRSTAPPTests' do
-    # Pods for testing
+  target 'TESTMYFIRSTAPPTests' do  # Pods for testing
+   pod 'Kiwi/XCTest'
   end
 
 end
