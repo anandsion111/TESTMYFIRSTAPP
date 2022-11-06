@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/anandsion111/TESTMYFIRSTAPP'
   spec.source       = { 
     :git => 'https://github.com/anandsion111/TESTMYFIRSTAPP', 
-    :branch => 'main',
+    :branch => 'master',
     :tag => spec.version.to_s  
   }
   spec.summary      = 'TESTMYFIRSTAPP'
