@@ -1,0 +1,6 @@
+framework module Pods_TESTMYFIRSTAPP {
+  umbrella header "Pods-TESTMYFIRSTAPP-umbrella.h"
+
+  export *
+  module * { export * }
+}
