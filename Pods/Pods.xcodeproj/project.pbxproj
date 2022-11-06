@@ -43,20 +43,20 @@
 		6C6AAE1417E11333BA7EEB78FF762DFC /* SenTestingKitAsync-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SenTestingKitAsync-dummy.m"; sourceTree = "<group>"; };
 		72C44152573213C84F574DE91C2A24FA /* Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests-dummy.m"; sourceTree = "<group>"; };
 		840C2DA01A369286F4BC6E248608EBA2 /* SenTestingKitAsync-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SenTestingKitAsync-umbrella.h"; sourceTree = "<group>"; };
-		8CAFC208129243AE8107028F4846D1A0 /* Pods_TESTMYFIRSTAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TESTMYFIRSTAPP.framework; path = "Pods-TESTMYFIRSTAPP.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAFC208129243AE8107028F4846D1A0 /* Pods_TESTMYFIRSTAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TESTMYFIRSTAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E694AE6419FBB4CABD51F12B2F24AAC /* Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests-Info.plist"; sourceTree = "<group>"; };
 		90080EA8141B9C5DB8E84F0EB6C21958 /* SenTestingKitAsync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenTestingKitAsync.m; path = SenTestingKitAsync/SenTestingKitAsync.m; sourceTree = "<group>"; };
-		9198DCDFFE5057481FEF4ED2606BC5C9 /* Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework; path = "Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9198DCDFFE5057481FEF4ED2606BC5C9 /* Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97239E0871A8EFC215435F4587B657F0 /* Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests-umbrella.h"; sourceTree = "<group>"; };
 		9A0EBEA97997E1DC79D94E50BC0F72F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E7C304E2BC19543B2B96D699433DDFA /* SenTestingKitAsync-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SenTestingKitAsync-prefix.pch"; sourceTree = "<group>"; };
 		A9E3ACEFDE2750C0C39DBB444925B593 /* Pods-TESTMYFIRSTAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TESTMYFIRSTAPP.release.xcconfig"; sourceTree = "<group>"; };
 		AA1A2881248DFA00D1B56933C2B2B60B /* SenTestingKitAsync.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SenTestingKitAsync.release.xcconfig; sourceTree = "<group>"; };
 		B4106202853C04300EDAD472C4AE37CC /* Pods-TESTMYFIRSTAPP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TESTMYFIRSTAPP.modulemap"; sourceTree = "<group>"; };
 		B460332A70075199C5D173CF6A3C329A /* Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B755D47F7B9490F7A966403791E4998D /* Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.modulemap"; sourceTree = "<group>"; };
-		BFC939DFA15F27DAD43CC8670973D4DF /* SenTestingKitAsync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SenTestingKitAsync.framework; path = SenTestingKitAsync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC939DFA15F27DAD43CC8670973D4DF /* SenTestingKitAsync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SenTestingKitAsync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB00F82225F9F8DFEB081995A9DB6FD3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CB9C0C454E8813270296A974F23DB147 /* Pods-TESTMYFIRSTAPP-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TESTMYFIRSTAPP-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E84570F47EE47D7FDF3CE3A8AA97AB5E /* Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,7 +161,6 @@
 				90080EA8141B9C5DB8E84F0EB6C21958 /* SenTestingKitAsync.m */,
 				8CA0265014991C25B46E762116A8E007 /* Support Files */,
 			);
-			name = SenTestingKitAsync;
 			path = SenTestingKitAsync;
 			sourceTree = "<group>";
 		};
@@ -553,7 +552,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -724,7 +724,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

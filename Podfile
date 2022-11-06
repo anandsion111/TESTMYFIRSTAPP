@@ -8,7 +8,7 @@ target 'TESTMYFIRSTAPP' do
   # Pods for TESTMYFIRSTAPP
 
   target 'TESTMYFIRSTAPPTests' do   # Pods for testing
-    pod 'SenTestingKitAsync', '~> 1.0.6'  
+    pod 'XCTest-Gherkin', '~> 0.21.2'  
    
   end
 

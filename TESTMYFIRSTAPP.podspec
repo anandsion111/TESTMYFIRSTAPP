@@ -20,5 +20,5 @@ Pod::Spec.new do |spec|
   spec.swift_versions = '5.0'
   spec.ios.deployment_target = '14.4'
   spec.dependency 'FirebaseMessaging', '~> 10.1.0'
-  spec.dependency 'SenTestingKitAsync', '~> 1.0.6'
+  spec.dependency 'XCTest-Gherkin', '~> 0.21.2'
  end
