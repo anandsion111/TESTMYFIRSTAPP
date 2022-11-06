@@ -7,7 +7,7 @@
 
 import XCTest
 @testable import TESTMYFIRSTAPP
-/*
+
 class TESTMYFIRSTAPPTests: XCTestCase {
 
     override func setUpWithError() throws {
@@ -31,4 +31,4 @@ class TESTMYFIRSTAPPTests: XCTestCase {
     }
 
 }
- */
+ 
