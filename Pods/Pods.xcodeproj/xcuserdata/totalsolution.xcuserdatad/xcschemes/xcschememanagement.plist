@@ -34,11 +34,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-TESTMYFIRSTAPP.xcscheme</key>
 		<dict>
 			<key>isShown</key>

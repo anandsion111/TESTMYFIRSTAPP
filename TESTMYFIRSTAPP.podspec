@@ -20,10 +20,6 @@ Pod::Spec.new do |spec|
   spec.swift_versions = '5.0'
   spec.ios.deployment_target = '13.0'
   spec.dependency 'FirebaseMessaging', '~> 10.1.0'
-  #spec.dependency 'Kiwi/XCTest', '~> 2.2.4'
-  spec.scheme = { 
-     :launch_arguments => ['Quick', 'XCTest'], 
-     :environment_variables => { 'XCTest' => 'true'}
-   }
+  
  
  end
