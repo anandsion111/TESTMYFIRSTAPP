@@ -9,7 +9,7 @@ target 'TESTMYFIRSTAPP' do
    pod 'FirebaseMessaging', '~> 10.1.0' 
 
   target 'TESTMYFIRSTAPPTests' do   # Pods for testing
-   # pod 'A11yUITests', '~> 1.0.0'  
+   pod 'Kiwi/XCTest' 
    
   end
 

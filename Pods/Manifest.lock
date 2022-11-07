@@ -40,6 +40,11 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.8.0):
     - GoogleUtilities/Logger
+  - Kiwi/ARC (2.2.4)
+  - Kiwi/NonARC (2.2.4)
+  - Kiwi/XCTest (2.2.4):
+    - Kiwi/ARC
+    - Kiwi/NonARC
   - nanopb (2.30909.0):
     - nanopb/decode (= 2.30909.0)
     - nanopb/encode (= 2.30909.0)
@@ -49,6 +54,7 @@ PODS:
 
 DEPENDENCIES:
   - FirebaseMessaging (~> 10.1.0)
+  - Kiwi/XCTest
 
 SPEC REPOS:
   trunk:
@@ -58,6 +64,7 @@ SPEC REPOS:
     - FirebaseMessaging
     - GoogleDataTransport
     - GoogleUtilities
+    - Kiwi
     - nanopb
     - PromisesObjC
 
@@ -68,9 +75,10 @@ SPEC CHECKSUMS:
   FirebaseMessaging: 4487bbff9b9b927ba1dd3ea40d1ceb58e4ee3cb5
   GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
   GoogleUtilities: 1d20a6ad97ef46f67bbdec158ce00563a671ebb7
+  Kiwi: c58165bd21aba5c7541adec5ab55a238832808b9
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
 
-PODFILE CHECKSUM: 940e051ed547671512fe24daf4905f7335360b9c
+PODFILE CHECKSUM: 2db24dca60695c2db3345826a1671e6c44661ea6
 
 COCOAPODS: 1.9.3
