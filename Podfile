@@ -4,14 +4,13 @@
 target 'TESTMYFIRSTAPP' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  
-  # Pods for TESTMYFIRSTAPP
-   pod 'FirebaseMessaging', '~> 10.1.0' 
 
-  #target 'TESTMYFIRSTAPPTests' do   # Pods for testing
-    
-   
-  #end
+  # Pods for TESTMYFIRSTAPP
+pod 'FirebaseMessaging'
+ 
+
+  target 'TESTMYFIRSTAPPTests' do
+    # Pods for testing
+  end
 
 end
-
