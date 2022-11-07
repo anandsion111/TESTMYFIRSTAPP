@@ -14,9 +14,16 @@ public class Utils{
          }
     func getData(key: String)->Any{
         let defaults = UserDefaults.standard
+       
         let res =  defaults.string(forKey: key)
+        
+        if(res == nil){
+            return res
+        }else{
             let res1:String = (res?.replacingOccurrences(of: "Optional(\"", with: ""))!
             let result:String = res1.replacingOccurrences(of: "\"", with: "")
-       return result
+            return result
+        }
+      
     }
 }
