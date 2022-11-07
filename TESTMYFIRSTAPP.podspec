@@ -22,8 +22,8 @@ Pod::Spec.new do |spec|
   spec.dependency 'FirebaseMessaging', '~> 10.1.0'
   #spec.dependency 'Kiwi/XCTest', '~> 2.2.4'
   spec.scheme = { 
-      :launch_arguments => ['Quick', 'XCTest'], 
-      :environment_variables => { 'XCTest' => 'false'}
-    }
+     :launch_arguments => ['Quick', 'XCTest'], 
+     :environment_variables => { 'XCTest' => 'true'}
+   }
  
  end
