@@ -23,6 +23,7 @@ public class DeepLink:  UIViewController, UNUserNotificationCenterDelegate {
     public func getDeepLink(notification: UNNotification)->String{
         let deeplink = "" as! String?
              
+        
 
         //let userInfo = notification.request.content.userInfo
        // let aps = userInfo[AnyHashable("aps")]
