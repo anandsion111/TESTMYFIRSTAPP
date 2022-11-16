@@ -16,6 +16,7 @@ import UserNotificationsUI
                                 willPresent notification: UNNotification,
                                 withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         completionHandler([.alert,.sound])
+        print("Notification---->>>>", notification.request.content.userInfo)
     }
     
     @available(iOS 10.0, *)
@@ -34,6 +35,7 @@ import UserNotificationsUI
         default:
             print("default")
         }
+        
         completionHandler()
     }
 }

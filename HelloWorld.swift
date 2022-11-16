@@ -8,5 +8,5 @@
 import Foundation
 public class HelloWorld{
     public init(){}
-    public let foo = "Welcome to Nashik....."
+    public let foo = "Welcome"
 }
