@@ -15,15 +15,11 @@ public class DeepLink:  UIViewController, UNUserNotificationCenterDelegate {
         super.viewDidLoad()
          
     }
-    
-    struct Noti : Codable {
-      let sound:String
-      let alert:String
-    }
+ 
     public func getDeepLink(notification: UNNotification)->String{
         let deeplink = "" as! String?
              
-        
+        print("Notification Data => \(notification.request.content.userInfo) ")
 
         //let userInfo = notification.request.content.userInfo
        // let aps = userInfo[AnyHashable("aps")]
@@ -33,9 +29,19 @@ public class DeepLink:  UIViewController, UNUserNotificationCenterDelegate {
         if let Response = notification.request.content.userInfo as? [String : Any],
               let myData = Response["aps"] as? [String : Any],
               let deeplink = myData["deeplink"] as? String  {
-            print("deeplink --> ", deeplink)
+          //  print("deeplink --> ", deeplink)
             if(!deeplink.isEmpty){
-            return deeplink
+               // return deeplink
+                let actiontype = DeepLink().getActionType(notification: notification)
+              print(actiontype == 1)
+                print(actiontype)
+                if(actiontype == 1){
+                   return deeplink
+                }else if(actiontype == 2){
+                    DeepLink().OpenBrowser(deeplink: deeplink)
+                    return deeplink
+                }
+                
             }else{
                 return "nil"
             }
@@ -44,7 +50,20 @@ public class DeepLink:  UIViewController, UNUserNotificationCenterDelegate {
         
         return deeplink as! String
     }
-    
+    public func getActionType(notification: UNNotification)->Int{
+        let actionType = 1
+         if let Response = notification.request.content.userInfo as? [String : Any],
+              let myData = Response["aps"] as? [String : Any],
+              let actionType = myData["actionType"] as? Int  {
+            return actionType as! Int
+         }
+        return actionType as! Int
+    }
+    public func OpenBrowser(deeplink: String){
+        if let requestUrl = NSURL(string: deeplink) {
+            UIApplication.shared.openURL(requestUrl as URL)
+       }
+    }
     public func goToSchene(notification: UNNotification){
    // public func goToSchene(pathval: String){
         

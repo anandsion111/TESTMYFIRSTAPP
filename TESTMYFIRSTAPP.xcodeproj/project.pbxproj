@@ -24,6 +24,7 @@
 		50851DE029178F0200C67B96 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DD429178F0200C67B96 /* Event.swift */; };
 		50851DE129178F0200C67B96 /* UserModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DD529178F0200C67B96 /* UserModal.swift */; };
 		50F10AE0292352200072511C /* DeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F10ADF292352200072511C /* DeepLink.swift */; };
+		50F10E012924B4660072511C /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F10E002924B4660072511C /* Media.swift */; };
 		7E259C430F23760748FF136D /* Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D95A07AE4DE055881B863E /* Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		50CBF4C72918B88000DEAD87 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CBF4F62918C2B300DEAD87 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		50F10ADF292352200072511C /* DeepLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLink.swift; sourceTree = "<group>"; };
+		50F10E002924B4660072511C /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 		AE0515214EF73A065B4C9747 /* Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.debug.xcconfig"; path = "Target Support Files/Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests/Pods-TESTMYFIRSTAPP-TESTMYFIRSTAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C98AF4E4960DE29DE9C48F43 /* Pods-TESTMYFIRSTAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TESTMYFIRSTAPP.release.xcconfig"; path = "Target Support Files/Pods-TESTMYFIRSTAPP/Pods-TESTMYFIRSTAPP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,6 +183,7 @@
 				50851DD129178F0100C67B96 /* SampleNotificationDelegate.swift */,
 				50851DCD29178F0100C67B96 /* firebaseMessagingService.swift */,
 				50F10ADF292352200072511C /* DeepLink.swift */,
+				50F10E002924B4660072511C /* Media.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 			files = (
 				50851DDC29178F0200C67B96 /* api.swift in Sources */,
 				50851DE029178F0200C67B96 /* Event.swift in Sources */,
+				50F10E012924B4660072511C /* Media.swift in Sources */,
 				50851DD829178F0200C67B96 /* ManageUser.swift in Sources */,
 				50F10AE0292352200072511C /* DeepLink.swift in Sources */,
 				50851DDF29178F0200C67B96 /* SdkConstants.swift in Sources */,
@@ -703,7 +707,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TESTMYFIRSTAPP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -735,7 +739,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TESTMYFIRSTAPP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
