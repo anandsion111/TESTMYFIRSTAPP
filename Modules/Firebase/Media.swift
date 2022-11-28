@@ -9,6 +9,7 @@ import UIKit
 import Foundation
 import UserNotifications
 
+
 public class Media:  UIViewController, UNUserNotificationCenterDelegate {
 
    public override func viewDidLoad() {
@@ -16,6 +17,8 @@ public class Media:  UIViewController, UNUserNotificationCenterDelegate {
          
     }
  
+    
+    
     public func getImageUrl(notification: UNNotification)->String{
         let imgUrl = "" as! String?
         if let Response = notification.request.content.userInfo as? [String : Any],

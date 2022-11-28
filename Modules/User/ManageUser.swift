@@ -32,8 +32,8 @@ public class ManageUser : Codable{
     //        var name: String
     //
     //    }
-    
-    
+     
+     
     public func RegisterUser(Parameters: Any)->(Any){
         let result = ""
         print("Parameters:", Parameters)
