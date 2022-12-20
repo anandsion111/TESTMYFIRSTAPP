@@ -23,6 +23,7 @@
 		50851DDF29178F0200C67B96 /* SdkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DD329178F0100C67B96 /* SdkConstants.swift */; };
 		50851DE029178F0200C67B96 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DD429178F0200C67B96 /* Event.swift */; };
 		50851DE129178F0200C67B96 /* UserModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50851DD529178F0200C67B96 /* UserModal.swift */; };
+		5096AB1B2940C9DA00E07272 /* notificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5096AB1A2940C9DA00E07272 /* notificationService.swift */; };
 		50F10AE0292352200072511C /* DeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F10ADF292352200072511C /* DeepLink.swift */; };
 		50F10E012924B4660072511C /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F10E002924B4660072511C /* Media.swift */; };
 		7E259C430F23760748FF136D /* Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D95A07AE4DE055881B863E /* Pods_TESTMYFIRSTAPP_TESTMYFIRSTAPPTests.framework */; };
@@ -77,6 +78,7 @@
 		50851DD329178F0100C67B96 /* SdkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkConstants.swift; sourceTree = "<group>"; };
 		50851DD429178F0200C67B96 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		50851DD529178F0200C67B96 /* UserModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModal.swift; sourceTree = "<group>"; };
+		5096AB1A2940C9DA00E07272 /* notificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationService.swift; sourceTree = "<group>"; };
 		50CBF4BF2918B88000DEAD87 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CBF4C02918B88000DEAD87 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CBF4C12918B88000DEAD87 /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +186,7 @@
 				50851DCD29178F0100C67B96 /* firebaseMessagingService.swift */,
 				50F10ADF292352200072511C /* DeepLink.swift */,
 				50F10E002924B4660072511C /* Media.swift */,
+				5096AB1A2940C9DA00E07272 /* notificationService.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -499,6 +502,7 @@
 				50851DDF29178F0200C67B96 /* SdkConstants.swift in Sources */,
 				50851DDB29178F0200C67B96 /* HelloWorld.swift in Sources */,
 				50851DD929178F0200C67B96 /* firebaseMessagingService.swift in Sources */,
+				5096AB1B2940C9DA00E07272 /* notificationService.swift in Sources */,
 				50851DE129178F0200C67B96 /* UserModal.swift in Sources */,
 				50851DDA29178F0200C67B96 /* ResponseJSON.swift in Sources */,
 				50851DD629178F0200C67B96 /* Utils.swift in Sources */,
@@ -707,7 +711,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TESTMYFIRSTAPP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -739,7 +743,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TESTMYFIRSTAPP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

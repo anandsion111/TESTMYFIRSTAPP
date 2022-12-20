@@ -82,6 +82,20 @@ public class DeepLink:  UIViewController, UNUserNotificationCenterDelegate {
             topVC.navigationController?.pushViewController(vc, animated: false)
         }
     }
+    
+    public func getActionButtons(notification: UNNotification)->Any{
+        let ActionButton = ""
+        if let Response = notification.request.content.userInfo as? [String : Any],
+              let myData = Response["aps"] as? [String : Any],
+              let ActionButton = myData["ActionButtons"] as? Any  {
+            return ActionButton
+        }
+        return ActionButton
+    }
+     
+     
+   
+    
 }
 
 
