@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'TESTMYFIRSTAPP'
-  spec.version      = '1.6'
+  spec.version      = '1.7'
   spec.authors      = { 
     'Anand Kumar' => 'anandsion111@gmail.com',
     'Another Anand Kumar' => 'anandsion111@gmail.com'

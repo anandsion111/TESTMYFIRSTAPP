@@ -16,6 +16,7 @@ public class DeepLink:  UIViewController, UNUserNotificationCenterDelegate {
          
     }
  
+    
     public func getDeepLink(notification: UNNotification)->String{
         let deeplink = "" as! String?
              

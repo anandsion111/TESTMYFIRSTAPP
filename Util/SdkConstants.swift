@@ -16,6 +16,7 @@ public class SdkConstants{
     static var AUTH_PARAMETER = "username=user&password=password&grant_type=password"
     static var AUTH_TOKEN = "QXBwRW5nYWdlOmp3eXVxaXNsc3BvZW5kayFAZGtma25zdXl3dGRiJiY="
     static var API_URL = "https://rtss-sit.jioconnect.com/campaign-manager-api"
+    
    
     
 }

@@ -133,6 +133,7 @@ public class ManageUser : Codable{
                 um.setPinCode(value: PinCode)
             }
         }
+        
         catch{
             print("Error \(error)")
         }
