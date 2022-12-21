@@ -5,6 +5,7 @@
 //  Created by Total Solution on 13/10/22.
 //
 
+
 import Foundation
 public class SdkConstants{
     static var APP_PLATFORM = "IOS"

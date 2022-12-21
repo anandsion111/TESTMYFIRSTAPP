@@ -5,6 +5,7 @@
 //  Created by Total Solution on 15/11/22.
 //
 
+
 import UIKit
 import Foundation
 import UserNotifications
@@ -16,6 +17,7 @@ public class DeepLink:  UIViewController, UNUserNotificationCenterDelegate {
          
     }
  
+    
     
     public func getDeepLink(notification: UNNotification)->String{
         let deeplink = "" as! String?

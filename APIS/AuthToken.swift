@@ -38,6 +38,7 @@ public class AuthToken{
           semaphore.signal()
         }
 
+        
         task.resume()
         semaphore.wait()
          

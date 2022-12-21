@@ -83,6 +83,7 @@ public class DeviceInfo {
         return result
     }
     
+    
     func getDate() -> Any {
         let date = Date()
         let dateFormatterGet = DateFormatter()

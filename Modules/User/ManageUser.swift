@@ -117,6 +117,7 @@ public class ManageUser : Codable{
             
             
             
+            
             //Call API for User Registration
             let apicall = api()
             // let result = ""
@@ -131,6 +132,7 @@ public class ManageUser : Codable{
                 um.setEducation(value: Education)
                 um.setOccupation(value: Occupation)
                 um.setPinCode(value: PinCode)
+                
             }
         }
         

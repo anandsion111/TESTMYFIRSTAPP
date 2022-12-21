@@ -5,6 +5,7 @@
 //  Created by Total Solution on 14/10/22.
 //
 
+
 import Foundation
 public class UserModal{
     public init(){}

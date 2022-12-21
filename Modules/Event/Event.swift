@@ -13,6 +13,7 @@ public class Event {
     public init() {}
     
     
+    
      public func Push(EventName:String, EventProperties: Any)->(Any){
         let deviceinfo = DeviceInfo()
         //let usermodal = UserModal()

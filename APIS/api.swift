@@ -22,6 +22,7 @@ public class api: Codable {
         
     }
 
+    
     public func Call(requestBody:Any, method:String, EventUrl:String)->(Any){
         let result = ""
         do{

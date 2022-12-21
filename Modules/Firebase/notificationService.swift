@@ -12,6 +12,7 @@ public class notificationservice: Codable{
     public init() {}
     
     
+    
     public func notifications(notification: UNNotification){
         let notificationCenter = UNUserNotificationCenter.current()
         notificationCenter.requestAuthorization(options: [.sound,.badge,.alert]){ [self]success, error in
@@ -20,6 +21,7 @@ public class notificationservice: Codable{
             } else{
                 print("Authorization Failed")
             }
+            
             
             
             //Dynamic Action Buttons
