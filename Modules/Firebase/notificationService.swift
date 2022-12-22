@@ -68,11 +68,11 @@ public class notificationservice: Codable{
         let Actionr = resp.actionIdentifier as! String
          let ActionButton = Actionr.components(separatedBy: ",")
         if(ActionButton.count == 2){
-            if(ActionButton[1] == "1"){
+            if(ActionButton[1] == "100"){
                 link.append(ActionButton[0])
             }
-            else if(ActionButton[1] == "2"){
-                DeepLink().OpenBrowser(deeplink: ActionButton[0])
+            else if(ActionButton[1] == "103"){
+                //DeepLink().OpenBrowser(deeplink: ActionButton[0])
                 link.append(ActionButton[0])
             }
         }

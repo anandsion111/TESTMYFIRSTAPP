@@ -41,7 +41,7 @@ public class DeepLink:  UIViewController, UNUserNotificationCenterDelegate {
                 if(actiontype == 1){
                    return deeplink
                 }else if(actiontype == 2){
-                    DeepLink().OpenBrowser(deeplink: deeplink)
+                   // DeepLink().OpenBrowser(deeplink: deeplink)
                     return deeplink
                 }
                 
@@ -55,7 +55,7 @@ public class DeepLink:  UIViewController, UNUserNotificationCenterDelegate {
         return deeplink as! String
     }
     public func getActionType(notification: UNNotification)->Int{
-        let actionType = 1
+        let actionType = 100
          if let Response = notification.request.content.userInfo as? [String : Any],
               let myData = Response["aps"] as? [String : Any],
               let actionType = myData["actionType"] as? Int  {
