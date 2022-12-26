@@ -66,25 +66,25 @@ public class DeviceInfo {
         let result = "\(SdkConstants.APP_PLATFORM)"
         return result
     }
-    func generateIMEI() -> Any {
+    public func generateIMEI() -> Any {
         let imei = getDeviceuuid()
        // let deviceid2:String = (deviceid1 as AnyObject).replacingOccurrences(of: "-", with: "")
        // let deviceid:String = String(deviceid2.prefix(16)) // Hello
         return imei
     }
-    func getAppVersion() -> String {
+    public func getAppVersion() -> String {
         let dictionary = Bundle.main.infoDictionary!
         let versionValue = dictionary["CFBundleShortVersionString"] ?? "0"
         let buildValue = dictionary["CFBundleVersion"] ?? "0"
         return "\(versionValue) (build \(buildValue))"
     }
-    func getSessionId() -> String {
+    public func getSessionId() -> String {
         let result = NSUUID().uuidString
         return result
     }
     
     
-    func getDate() -> Any {
+    public func getDate() -> Any {
         let date = Date()
         let dateFormatterGet = DateFormatter()
         let df = DateFormatter()
@@ -97,15 +97,15 @@ public class DeviceInfo {
 
     }
     
-    func getInteractionId() -> String {
+    public func getInteractionId() -> String {
         let result = NSUUID().uuidString
         return result
     }
-    func getSrNumber() -> String {
+    public func getSrNumber() -> String {
         let result = NSUUID().uuidString
         return result
     }
-    func getScreenSize() -> Any {
+    public func getScreenSize() -> Any {
         //Screen Size
            let scale = UIScreen.main.scale
 

@@ -63,6 +63,7 @@ public class notificationservice: Codable{
              }
            }
     }
+    
     public func getActionUrl(resp: UNNotificationResponse)->String{
         var link = ""
         let Actionr = resp.actionIdentifier as! String
@@ -78,14 +79,15 @@ public class notificationservice: Codable{
         }
        return link
     }
-    public func getActionType(resp: UNNotificationResponse)->String{
+    public func getActionType(resp: UNNotificationResponse)->Int{
         var actiontype = ""
+        
         let Actionr = resp.actionIdentifier
         let ActionButton = Actionr.components(separatedBy: ",")
         if(ActionButton.count == 2){
             actiontype.append(ActionButton[1])
         }
-        return actiontype
+        return actiontype  as! Int
     }
     
     
