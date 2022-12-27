@@ -79,15 +79,16 @@ public class notificationservice: Codable{
         }
        return link
     }
-    public func getActionType(resp: UNNotificationResponse)->Int{
-        var actiontype = "0"
+    public func getActionType(resp: UNNotificationResponse)->String{
+         var actiontype = "";
+       // var returndata: Int = 0
         let Actionr = resp.actionIdentifier
         let ActionButton = Actionr.components(separatedBy: ",")
         if(ActionButton.count == 2){
-            actiontype.append(ActionButton[1])
+          actiontype.append(ActionButton[1])
+          //var  returndata = ActionButton[1]
         }
-        let returndata = actiontype as! Int
-        return returndata
+        return actiontype
     }
     
     
