@@ -90,6 +90,6 @@ public class notificationservice: Codable{
         }
         return actiontype
     }
-    
+     
     
 }

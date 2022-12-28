@@ -58,6 +58,14 @@ public class DeviceInfo {
         let version = UIDevice.current.systemVersion
         return version
     }
+    /*
+    public func getAppVersion()->(Any){
+        let version1 = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
+        let version2:String = (version1?.replacingOccurrences(of: "Optional(\"", with: ""))!
+        let version:String = version2.replacingOccurrences(of: "\"", with: "")
+        return version
+    }
+    */
     public func getDeviceModelName()->(Any){
         let modelName = UIDevice.current.model
         return modelName
@@ -76,7 +84,8 @@ public class DeviceInfo {
         let dictionary = Bundle.main.infoDictionary!
         let versionValue = dictionary["CFBundleShortVersionString"] ?? "0"
         let buildValue = dictionary["CFBundleVersion"] ?? "0"
-        return "\(versionValue) (build \(buildValue))"
+        //return "\(versionValue) (build \(buildValue))"
+        return "\(versionValue)"
     }
     public func getSessionId() -> String {
         let result = NSUUID().uuidString
@@ -96,7 +105,13 @@ public class DeviceInfo {
         return dateString
 
     }
-    
+    public func getTimeZone() -> Any {
+        let timeZone = TimeZone.current.identifier
+
+        return timeZone
+
+    }
+     
     public func getInteractionId() -> String {
         let result = NSUUID().uuidString
         return result

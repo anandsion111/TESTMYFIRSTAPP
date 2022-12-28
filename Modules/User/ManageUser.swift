@@ -80,6 +80,7 @@ public class ManageUser : Codable{
 {
 "appName": "\(device.getAppName())",
 "imei": "\(device.getImei())",
+"timezone": "\(device.getTimeZone())",
 "profile": {
 "appVersion": "\(device.getAppVersion())",
 "deviceDetails": {
@@ -88,8 +89,12 @@ public class ManageUser : Codable{
   "Version": "\(device.getDeviceVersion())",
   "Screen": "\(device.getScreenSize())",
   "Manufacturer": "\(device.getDeviceName())",
+  "appVersion": "\(device.getAppVersion())",
   "HWModel": "\(device.getDeviceModelName())"
+  
+  
 },
+
 "deviceId": "\(device.getDeviceId())",
 "identifier": "\(device.getidentifier())",
 "imei": "\(device.getImei())",
